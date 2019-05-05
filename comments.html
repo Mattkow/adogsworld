@@ -1,0 +1,100 @@
+</— A Dogs World
+       Author: Matthew Young
+       Date: 05/03/2019
+
+-->
+
+<!DOCTYPE html>
+
+<html> 
+<title> A Dogs World: Comments</title>
+
+</-- This is the link that enables this HTML page to use the related CSS3 style sheet.
+     It also is on each individual html page.
+-->
+<link rel="stylesheet" href="dog.css">
+<div id="wrapper">
+
+<body>
+
+<header> 
+<img src="pawprints.png" alt="the four prints of destiny" div id="topright">
+<h1> Let us know what you think! <h2>
+
+</header>
+
+<nav>
+<div id="navwrapper">
+
+<ul>
+<li> <a href="index.html">Home</a> </li>
+<li> <a href="Information.html">Information</a> </li>
+<li> <a href="breeds.html">Services</a> </li>
+<li> <a href="comments.html">Contact Us</a> </li>
+</ul>
+</div>
+</nav>
+
+<main>
+  
+</main>
+<br>
+<br>
+
+</-- This is the form where the visitors to the site can fill out and submit comments
+     about the site to me.  I decided to add a rating system because this is a tips and tricks site
+	 so it just seemed appropriate. Usually there would be a website in the action part, but I didn't want it
+	 to go anywhere.
+-->
+Required information is marked with an *
+
+<form method="post" action="nowhere">
+
+<label for="myName">* Name</label>
+<input type="text" name="myName" id="myName"
+       required="required" placeholder="Your Name">
+  
+<label for="myEmail">* E-mail</label>
+<input type="email" name="myEmail" id="myEmail"
+       required="required"
+       placeholder="you@yourdomain.com">
+		 
+<label for="myRating">Rating (1 &mdash; 10)</label>
+<input type="range" name="myRating"
+       id="myRating" min="1" max="10">
+		 
+<label for="myComments">* Comments</label>
+<textarea name="myComments" id="myComments"
+       rows="2" cols="40"
+       required="required"
+       placeholder="Your Comments Here">
+</textarea>
+  
+  <input type="submit" value="Submit">
+  
+</form>
+<br>
+<br>
+
+</-- Below is the image maps used for the site, I added youtube and twitter because they are the most popular 
+     (other than facebook).  According to the textbook, most people use an external tool to create their imagemaps
+	 so I used one the textbook provided.  I also decided it was best to have the imagemaps open a new tab, so the
+	 visitors don't lose whatever they are doing.
+-->
+<h6> Let us know what you think! </h6>
+
+<map id="socialmediamap" name="socialmediamap">
+<area shape="poly" alt="youtube" title="" coords="37,2,23,6,7,21,2,35,2,146,10,160,22,172,34,176,143,176,157,173,168,165,176,152,178,142,178,36,174,21,166,12,144,1" 
+href="https://www.youtube.com" target="_blank" />
+<area shape="poly" alt="twitter" title="" coords="221,3,204,9,192,21,188,35,188,147,194,160,202,169,216,176,327,176,344,172,358,160,363,149,363,39,360,27,354,14,339,6,329,2" 
+href="https://www.twitter.com" target="_blank" /></map>
+
+<img src="socialmedia.png" usemap="#socialmediamap" alt="socialmediamap" height="179" width="366">
+
+<footer> 
+Copyright © A Dogs World 2019 
+</footer>
+
+</div>
+</body>
+</html>

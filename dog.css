@@ -1,0 +1,207 @@
+/*
+
+A Dogs World
+Author: Matthew Young
+Date: 05/03/2019
+
+*/
+
+/*
+I decided to seperate the elements and the Id's and the descendant selectors.
+This enabled me to move quickly through the stylesheet and make changes.
+*/
+
+*{ box-sizing: border-box; }
+	
+#floatleft {float: left;
+            margin-right: 5em; }
+			
+			
+#topright  { float: right;
+             margin-left: 5em; 
+			 height: 100px;
+             width: 100px;	}
+			 
+/*
+the jackterrier, guidepup, and the socialmedia ids were all used for pictures, as well
+as the topright id for the paw prints in the corner of the screen.
+*/			 
+			 
+#jackterrier {margin-left: 50%;
+              float: left;		
+              height: 400px;
+              width: 400px;	 }
+			  
+#guidepup  {margin-right: 950px; 
+            height: 200px;
+			width: 200px; 
+			}
+			
+#socialmedia {height: 300px;
+              width: 300px; 
+              margin-left:210px;
+			  margin-bottom:100px;}
+			
+
+#container { margin-left: auto; 
+             margin-right: auto;
+             width: 80%; 
+			 background-color: #48D1CC;
+             min-width: 650px; max-width: 1280px;
+             box-shadow: 10px 10px 10px #333333;
+             border: 1px solid #000033; }
+			 
+#wrapper { margin-left: auto;
+           margin-right: auto;
+           width: 80%;
+		   color: #3F2860;
+		   background-color: #FFFFDD;
+		   min-width: 550px;
+           max-width: 1280px; 
+		   opacity: .8; }			 
+
+/*
+the iframe id was used for the video on the first page.  I really wanted to try
+and keep all the styling to the stylesheet.
+*/
+#iframe {width: 500px;
+         height: 300px;	
+	     border: 0; }
+		   
+/*
+I kept the rest in no real particular order.  I wanted the headings up front and
+all together because I ended up changing those quite frequently.
+*/
+	
+h1      {  margin-bottom: 0; }
+
+h2       {text-align: center;
+          margin-right: 5em;
+          font-size: 120%;		  }
+		  
+h3      { text-align: center;
+          margin-right: 300px;}
+
+h4      {  text-align: center;
+           font-size: 110%;
+		   margin-right: 300px;}
+		 
+h5       {text-align: center;
+          font-size: 110%; 
+		  margin-right:50px; }
+		  
+h6       {text-align: left;
+          font-size: 110%; 
+          padding-right: 40px; }
+			 
+
+/*
+The nav elements were the most fun.  I really liked the psuedo commands
+and tried to use as many as I could.
+*/
+			 
+nav     {  font-weight: bold;
+           font-size: 1.25em;
+           background-color: #FFFFDD; 
+		   float: left;
+		   height: 500px;
+		   width: 250px;
+           padding: 5px;}	
+
+nav a { text-decoration: none;
+        display: block;
+        text-align: left;
+        font-weight: bold;
+         border-style: outset;
+         border-color: #33CCCC;
+         padding: 1em;
+         margin-bottom: 1em;} 
+		 
+nav a:link {color: #3F2860; }
+nav a:visited {color: #497777; }
+nav a:hover {color: #A26100;
+              border-style: inset;
+              border-color: #333333; }
+		 		 
+/*
+I had to seperate the nav wrapper, from the wrapper used for the rest of the site
+because the words were a little too big.
+*/
+#navwrapper { width: 80%;
+           background-color: #FFFFDD; }		 
+			 
+			 
+/*
+For the body element, I really wanted a picture of a dog in profile view.  I thought it
+would be really cool if there was no repeating images - just one massive dog.  I really liked how it
+turned out.
+*/			 
+body    {  background-image: url(dingodoggo.jpg);
+           background-repeat: no-repeat;
+		   background-position: 100%;
+		   background-position: left;
+           background-size: 2500px 2800px;   }
+		 
+		 
+header  {  background-color: #33CCCC;
+           color: #FFFFDD;
+           background-position: right;
+           background-repeat: no-repeat;
+           height: 100px;
+           padding-top: 10px;
+		   padding-left: 2em; }
+		 
+		 
+main   {margin-left: 15em; 
+        text-indent: 30px; }
+	
+/*
+The table was frustrating me a little bit because of its sheer size. 
+It kept interfering with the picture of the jack russell terrier, so I 
+almost took that picture out.  Luckily I figured out how to make it work
+
+*/	
+table { margin-left: 6em;
+       width: 60%;
+	   border-collapse: collapse;
+	   margin-bottom: 1em; }
+
+td, th { padding: .5em; 
+         border: 2px solid; 
+         border-color: #33CCCC; }
+		
+		 
+caption {margin: 1em;
+         font-weight: bold;
+         font-size: 120%; }
+
+label { display: block;
+        padding: 10px;
+        margin-top: 10px; }
+		
+input { display: block;
+        margin-bottom: 10px; }
+	   
+textarea {display: block;
+          margin-bottom: 1em; 
+		  margin-left: 3em;}
+		 
+
+form {padding: 1em; }	 
+
+footer {  font-style: italic;
+          font-size: .80em; 		  
+		  padding: 0.5em;
+		  margin-left: auto;
+		  margin-right: auto;
+		  text-align: center;}
+
+
+
+
+
+
+
+
+
+	   
